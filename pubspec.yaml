@@ -32,6 +32,11 @@ dependencies:
     sdk: flutter
   sqflite: ^2.2.6
   shared_preferences: ^2.1.0
+<<<<<<< HEAD
+=======
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+>>>>>>> 52bc506 (first commit)
 
 
   # The following adds the Cupertino Icons font to your application.
