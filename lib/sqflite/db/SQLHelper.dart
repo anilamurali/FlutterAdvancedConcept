@@ -51,10 +51,6 @@ class SQLHelper{
 
 
 }
-<<<<<<< HEAD
-=======
-class SqlHelperClass{
 
-}
->>>>>>> 52bc506 (first commit)
+
 

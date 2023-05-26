@@ -37,6 +37,9 @@ class _MyTodoState extends State<MyTodo> {
     fetchTask();
 
   }
+
+  //read single data
+
   //read all data frokm hive
   void fetchTask() {
     final task_from_hive= my_task_box.keys.map((key){
@@ -98,7 +101,7 @@ class _MyTodoState extends State<MyTodo> {
               if( itemkey == null){
                 createTask({
                   "title":title.text.trim(),
-                  "task":task.text.trim()
+                  "task":task.text.trim(),
                 });
 
               }
